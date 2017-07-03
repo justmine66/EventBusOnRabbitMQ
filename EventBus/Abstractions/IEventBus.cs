@@ -7,9 +7,9 @@ namespace EventBus.Abstractions
 {
     /// <summary>
     /// 摘要：
-    ///     事件总线
+    ///     事件总线。
     /// 说明：
-    ///     集中式事件处理中心
+    ///     集中式事件处理中心。
     /// </summary>
     public interface IEventBus
     {
@@ -31,7 +31,7 @@ namespace EventBus.Abstractions
 
         /// <summary>
         /// 摘要：
-        ///     发布时间
+        ///     表示一个发布事件的方法
         /// </summary>
         /// <param name="event">事件类型</param>
         void Publish(IntegrationEvent @event);
